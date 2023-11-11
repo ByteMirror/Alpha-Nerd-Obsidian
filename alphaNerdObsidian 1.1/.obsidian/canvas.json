@@ -1,0 +1,6 @@
+{
+  "snapToObjects": true,
+  "snapToGrid": false,
+  "cardLabelVisibility": "hover",
+  "defaultWheelBehavior": "pan"
+}

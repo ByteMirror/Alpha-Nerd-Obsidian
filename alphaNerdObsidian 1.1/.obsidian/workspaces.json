@@ -1,0 +1,1154 @@
+{
+  "workspaces": {
+    "Big Monitor with Tasks and Cal": {
+      "main": {
+        "id": "31ecc46e6e068c94",
+        "type": "split",
+        "children": [
+          {
+            "id": "8273df2aa3f61f06",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "60e1cd14aa12ea99",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Dashboards/Home.md",
+                    "mode": "preview",
+                    "backlinks": false,
+                    "source": false
+                  },
+                  "pinned": true
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "68f886891450146e",
+        "type": "split",
+        "children": [
+          {
+            "id": "cc20c3e96a95756d",
+            "type": "tabs",
+            "dimension": 65.57203389830508,
+            "children": [
+              {
+                "id": "55ee7d2746421498",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {}
+                }
+              },
+              {
+                "id": "bf61a2648c1d2317",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "tag:ObjectType/Human",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": true,
+                    "extraContext": false,
+                    "sortOrder": "byCreatedTime"
+                  }
+                }
+              },
+              {
+                "id": "1e65ebd0184b9f7b",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "id": "0cd9ba212f560758",
+            "type": "tabs",
+            "dimension": 34.42796610169492,
+            "children": [
+              {
+                "id": "df2267d033918e9c",
+                "type": "leaf",
+                "state": {
+                  "type": "calendar",
+                  "state": {}
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 253.5
+      },
+      "right": {
+        "id": "7e40f3bb0d6d194f",
+        "type": "split",
+        "children": [
+          {
+            "id": "16bb794ac7f09c0e",
+            "type": "tabs",
+            "dimension": 70.33898305084746,
+            "children": [
+              {
+                "id": "8abd18199d6ba380",
+                "type": "leaf",
+                "state": {
+                  "type": "file-properties",
+                  "state": {
+                    "file": "Dashboards/Home.md"
+                  }
+                }
+              },
+              {
+                "id": "ce3fc851fa73c35a",
+                "type": "leaf",
+                "state": {
+                  "type": "recent-files",
+                  "state": {}
+                }
+              },
+              {
+                "id": "4b046256a4717c50",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true
+                  }
+                }
+              },
+              {
+                "id": "a8870c8e8fec6ae8",
+                "type": "leaf",
+                "state": {
+                  "type": "all-properties",
+                  "state": {
+                    "sortOrder": "frequency"
+                  }
+                }
+              },
+              {
+                "id": "e4bdb59474996f63",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "Dashboards/Home.md",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              },
+              {
+                "id": "ef7dfc612766af68",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "Dashboards/Home.md",
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              },
+              {
+                "id": "69eaadc0ed630d96",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "Dashboards/Home.md"
+                  }
+                }
+              },
+              {
+                "id": "d068a92c3306d823",
+                "type": "leaf",
+                "state": {
+                  "type": "review-queue-list-view",
+                  "state": {}
+                }
+              }
+            ]
+          },
+          {
+            "id": "3a88e60964b09d6f",
+            "type": "tabs",
+            "dimension": 29.66101694915254,
+            "children": [
+              {
+                "id": "c71f442f6b1456bc",
+                "type": "leaf",
+                "state": {
+                  "type": "localgraph",
+                  "state": {
+                    "file": "Dashboards/Home.md",
+                    "options": {
+                      "collapse-filter": true,
+                      "search": "",
+                      "localJumps": 1,
+                      "localBacklinks": true,
+                      "localForelinks": true,
+                      "localInterlinks": false,
+                      "showTags": false,
+                      "showAttachments": false,
+                      "hideUnresolved": false,
+                      "collapse-color-groups": true,
+                      "colorGroups": [],
+                      "collapse-display": true,
+                      "showArrow": false,
+                      "textFadeMultiplier": 0,
+                      "nodeSizeMultiplier": 1,
+                      "lineSizeMultiplier": 1,
+                      "collapse-forces": true,
+                      "centerStrength": 0.518713248970312,
+                      "repelStrength": 10,
+                      "linkStrength": 1,
+                      "linkDistance": 250,
+                      "scale": 1,
+                      "close": true
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 314.5,
+        "collapsed": true
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "password-protection:Unlock password protection": false,
+          "obsidian-media-db-plugin:Add new Media DB entry": false,
+          "daily-notes:Open today's daily note": false,
+          "templates:Insert template": false,
+          "graph:Open graph view": false,
+          "canvas:Create new canvas": false,
+          "switcher:Open quick switcher": true,
+          "command-palette:Open command palette": true,
+          "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false,
+          "dbfolder:Create a new database table": false,
+          "templater-obsidian:Templater": false,
+          "obsidian-excalidraw-plugin:Create new drawing": false,
+          "obsidian-full-calendar:Open Full Calendar": false,
+          "homepage:Open homepage": false,
+          "meld-encrypt:New encrypted note": false,
+          "meld-encrypt:Convert to or from an Encrypted note": false,
+          "ledger-obsidian:Add to Ledger": false,
+          "periodic-notes:Open today": false,
+          "obsidian-projects:Open projects": false,
+          "obsidian-spaced-repetition:Review flashcards": false,
+          "workspaces:Manage workspace layouts": false,
+          "audio-recorder:Start/stop recording": false
+        }
+      },
+      "floating": {
+        "id": "9aa31b94302f41f7",
+        "type": "floating",
+        "children": [
+          {
+            "id": "82ef31fadf5a609c",
+            "type": "window",
+            "children": [
+              {
+                "id": "e69df618b23840b6",
+                "type": "tabs",
+                "children": [
+                  {
+                    "id": "05115a0bf21865e4",
+                    "type": "leaf",
+                    "state": {
+                      "type": "full-calendar-sidebar-view",
+                      "state": {}
+                    }
+                  },
+                  {
+                    "id": "4e9f95239232af52",
+                    "type": "leaf",
+                    "state": {
+                      "type": "todo",
+                      "state": {}
+                    }
+                  }
+                ],
+                "currentTab": 1
+              }
+            ],
+            "direction": "vertical",
+            "x": 17,
+            "y": 103,
+            "width": 425,
+            "height": 801,
+            "maximize": false,
+            "zoom": 0
+          }
+        ]
+      },
+      "active": "60e1cd14aa12ea99",
+      "workspaces-plus:settings-v1": {}
+    },
+    "Minimal": {
+      "main": {
+        "id": "31ecc46e6e068c94",
+        "type": "split",
+        "children": [
+          {
+            "id": "8273df2aa3f61f06",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "60e1cd14aa12ea99",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Dashboards/Home.md",
+                    "mode": "preview",
+                    "backlinks": false,
+                    "source": false
+                  },
+                  "pinned": true
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "68f886891450146e",
+        "type": "split",
+        "children": [
+          {
+            "id": "cc20c3e96a95756d",
+            "type": "tabs",
+            "dimension": 65.57203389830508,
+            "children": [
+              {
+                "id": "55ee7d2746421498",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {}
+                }
+              },
+              {
+                "id": "bf61a2648c1d2317",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "tag:ObjectType/Human",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": true,
+                    "extraContext": false,
+                    "sortOrder": "byCreatedTime"
+                  }
+                }
+              },
+              {
+                "id": "1e65ebd0184b9f7b",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "id": "0cd9ba212f560758",
+            "type": "tabs",
+            "dimension": 34.42796610169492,
+            "children": [
+              {
+                "id": "df2267d033918e9c",
+                "type": "leaf",
+                "state": {
+                  "type": "calendar",
+                  "state": {}
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 253.5,
+        "collapsed": true
+      },
+      "right": {
+        "id": "7e40f3bb0d6d194f",
+        "type": "split",
+        "children": [
+          {
+            "id": "16bb794ac7f09c0e",
+            "type": "tabs",
+            "dimension": 70.33898305084746,
+            "children": [
+              {
+                "id": "4e9f95239232af52",
+                "type": "leaf",
+                "state": {
+                  "type": "todo",
+                  "state": {}
+                }
+              },
+              {
+                "id": "05115a0bf21865e4",
+                "type": "leaf",
+                "state": {
+                  "type": "full-calendar-sidebar-view",
+                  "state": {}
+                }
+              },
+              {
+                "id": "8abd18199d6ba380",
+                "type": "leaf",
+                "state": {
+                  "type": "file-properties",
+                  "state": {
+                    "file": "Dashboards/Home.md"
+                  }
+                }
+              },
+              {
+                "id": "ce3fc851fa73c35a",
+                "type": "leaf",
+                "state": {
+                  "type": "recent-files",
+                  "state": {}
+                }
+              },
+              {
+                "id": "4b046256a4717c50",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true
+                  }
+                }
+              },
+              {
+                "id": "a8870c8e8fec6ae8",
+                "type": "leaf",
+                "state": {
+                  "type": "all-properties",
+                  "state": {
+                    "sortOrder": "frequency"
+                  }
+                }
+              },
+              {
+                "id": "e4bdb59474996f63",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "Dashboards/Home.md",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              },
+              {
+                "id": "ef7dfc612766af68",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "Dashboards/Home.md",
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              },
+              {
+                "id": "69eaadc0ed630d96",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "Dashboards/Home.md"
+                  }
+                }
+              },
+              {
+                "id": "d068a92c3306d823",
+                "type": "leaf",
+                "state": {
+                  "type": "review-queue-list-view",
+                  "state": {}
+                }
+              }
+            ]
+          },
+          {
+            "id": "3a88e60964b09d6f",
+            "type": "tabs",
+            "dimension": 29.66101694915254,
+            "children": [
+              {
+                "id": "c71f442f6b1456bc",
+                "type": "leaf",
+                "state": {
+                  "type": "localgraph",
+                  "state": {
+                    "file": "Dashboards/Home.md",
+                    "options": {
+                      "collapse-filter": true,
+                      "search": "",
+                      "localJumps": 1,
+                      "localBacklinks": true,
+                      "localForelinks": true,
+                      "localInterlinks": false,
+                      "showTags": false,
+                      "showAttachments": false,
+                      "hideUnresolved": false,
+                      "collapse-color-groups": true,
+                      "colorGroups": [],
+                      "collapse-display": true,
+                      "showArrow": false,
+                      "textFadeMultiplier": 0,
+                      "nodeSizeMultiplier": 1,
+                      "lineSizeMultiplier": 1,
+                      "collapse-forces": true,
+                      "centerStrength": 0.518713248970312,
+                      "repelStrength": 10,
+                      "linkStrength": 1,
+                      "linkDistance": 250,
+                      "scale": 1,
+                      "close": true
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 382.5,
+        "collapsed": true
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "password-protection:Unlock password protection": false,
+          "obsidian-media-db-plugin:Add new Media DB entry": false,
+          "daily-notes:Open today's daily note": false,
+          "templates:Insert template": false,
+          "graph:Open graph view": false,
+          "canvas:Create new canvas": false,
+          "switcher:Open quick switcher": true,
+          "command-palette:Open command palette": true,
+          "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false,
+          "dbfolder:Create a new database table": false,
+          "templater-obsidian:Templater": false,
+          "obsidian-excalidraw-plugin:Create new drawing": false,
+          "obsidian-full-calendar:Open Full Calendar": false,
+          "homepage:Open homepage": false,
+          "meld-encrypt:New encrypted note": false,
+          "meld-encrypt:Convert to or from an Encrypted note": false,
+          "ledger-obsidian:Add to Ledger": false,
+          "periodic-notes:Open today": false,
+          "obsidian-projects:Open projects": false,
+          "obsidian-spaced-repetition:Review flashcards": false,
+          "workspaces:Manage workspace layouts": false,
+          "audio-recorder:Start/stop recording": false
+        }
+      },
+      "active": "4e9f95239232af52",
+      "workspaces-plus:settings-v1": {}
+    },
+    "Minimal Daily Note": {
+      "main": {
+        "id": "31ecc46e6e068c94",
+        "type": "split",
+        "children": [
+          {
+            "id": "7673f77087a3802c",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "093998eb83b0adf6",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Zettelkasten/2023-10-26.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "68f886891450146e",
+        "type": "split",
+        "children": [
+          {
+            "id": "cc20c3e96a95756d",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "55ee7d2746421498",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {}
+                }
+              },
+              {
+                "id": "bf61a2648c1d2317",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "path:Templates  ",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": true,
+                    "extraContext": false,
+                    "sortOrder": "byCreatedTime"
+                  }
+                }
+              },
+              {
+                "id": "1e65ebd0184b9f7b",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              }
+            ],
+            "currentTab": 2
+          }
+        ],
+        "direction": "horizontal",
+        "width": 253.5,
+        "collapsed": true
+      },
+      "right": {
+        "id": "7e40f3bb0d6d194f",
+        "type": "split",
+        "children": [
+          {
+            "id": "16bb794ac7f09c0e",
+            "type": "tabs",
+            "dimension": 62.63383297644539,
+            "children": [
+              {
+                "id": "8abd18199d6ba380",
+                "type": "leaf",
+                "state": {
+                  "type": "file-properties",
+                  "state": {
+                    "file": "Zettelkasten/2023-10-26.md"
+                  }
+                }
+              },
+              {
+                "id": "ce3fc851fa73c35a",
+                "type": "leaf",
+                "state": {
+                  "type": "recent-files",
+                  "state": {}
+                }
+              },
+              {
+                "id": "4b046256a4717c50",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true
+                  }
+                }
+              },
+              {
+                "id": "e4bdb59474996f63",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "Zettelkasten/2023-10-26.md",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": false
+                  }
+                }
+              },
+              {
+                "id": "69eaadc0ed630d96",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "Zettelkasten/2023-10-26.md"
+                  }
+                }
+              },
+              {
+                "id": "ae985c3358411742",
+                "type": "leaf",
+                "state": {
+                  "type": "full-calendar-sidebar-view",
+                  "state": {}
+                }
+              },
+              {
+                "id": "c096d09e4fc0d2b0",
+                "type": "leaf",
+                "state": {
+                  "type": "reminder-list",
+                  "state": {}
+                }
+              },
+              {
+                "id": "6027845ba05b8952",
+                "type": "leaf",
+                "state": {
+                  "type": "advanced-tables-toolbar",
+                  "state": {}
+                }
+              },
+              {
+                "id": "18e782dadd7f5dbf",
+                "type": "leaf",
+                "state": {
+                  "type": "all-properties",
+                  "state": {
+                    "sortOrder": "frequency"
+                  }
+                }
+              },
+              {
+                "id": "2a78d93fa7172174",
+                "type": "leaf",
+                "state": {
+                  "type": "todo",
+                  "state": {}
+                }
+              }
+            ]
+          },
+          {
+            "id": "3a88e60964b09d6f",
+            "type": "tabs",
+            "dimension": 37.3661670235546,
+            "children": [
+              {
+                "id": "c71f442f6b1456bc",
+                "type": "leaf",
+                "state": {
+                  "type": "localgraph",
+                  "state": {
+                    "file": "Zettelkasten/2023-10-26.md",
+                    "options": {
+                      "collapse-filter": true,
+                      "search": "",
+                      "localJumps": 1,
+                      "localBacklinks": true,
+                      "localForelinks": true,
+                      "localInterlinks": false,
+                      "showTags": false,
+                      "showAttachments": false,
+                      "hideUnresolved": false,
+                      "collapse-color-groups": true,
+                      "colorGroups": [],
+                      "collapse-display": true,
+                      "showArrow": false,
+                      "textFadeMultiplier": 0,
+                      "nodeSizeMultiplier": 1,
+                      "lineSizeMultiplier": 1,
+                      "collapse-forces": true,
+                      "centerStrength": 0.518713248970312,
+                      "repelStrength": 10,
+                      "linkStrength": 1,
+                      "linkDistance": 250,
+                      "scale": 1,
+                      "close": true
+                    }
+                  }
+                }
+              },
+              {
+                "id": "ef7dfc612766af68",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "Zettelkasten/2023-10-26.md",
+                    "linksCollapsed": true,
+                    "unlinkedCollapsed": false
+                  }
+                }
+              },
+              {
+                "id": "df2267d033918e9c",
+                "type": "leaf",
+                "state": {
+                  "type": "calendar",
+                  "state": {}
+                }
+              }
+            ],
+            "currentTab": 2
+          }
+        ],
+        "direction": "horizontal",
+        "width": 334.5,
+        "collapsed": true
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "daily-notes:Open today's daily note": false,
+          "templates:Insert template": false,
+          "graph:Open graph view": false,
+          "canvas:Create new canvas": false,
+          "switcher:Open quick switcher": true,
+          "command-palette:Open command palette": true,
+          "workspaces:Manage workspace layouts": false,
+          "audio-recorder:Start/stop recording": false,
+          "obsidian-excalidraw-plugin:Create new drawing": false,
+          "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false,
+          "templater-obsidian:Templater": false,
+          "dbfolder:Create a new database table": false,
+          "homepage:Open homepage": false,
+          "obsidian-media-db-plugin:Add new Media DB entry": false,
+          "obsidian-full-calendar:Open Full Calendar": false,
+          "ledger-obsidian:Add to Ledger": false,
+          "obsidian-projects:Open projects": false,
+          "obsidian-spaced-repetition:Review flashcards": false,
+          "table-editor-obsidian:Advanced Tables Toolbar": false,
+          "obsidian-leaflet-plugin:Open Leaflet Map": false,
+          "periodic-notes:Open today": false
+        }
+      },
+      "active": "8abd18199d6ba380",
+      "workspaces-plus:settings-v1": {}
+    },
+    "Standard": {
+      "main": {
+        "id": "31ecc46e6e068c94",
+        "type": "split",
+        "children": [
+          {
+            "id": "7673f77087a3802c",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "093998eb83b0adf6",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Zettelkasten/2023-10-26.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "68f886891450146e",
+        "type": "split",
+        "children": [
+          {
+            "id": "cc20c3e96a95756d",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "55ee7d2746421498",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {}
+                }
+              },
+              {
+                "id": "bf61a2648c1d2317",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "path:Templates  ",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": true,
+                    "extraContext": false,
+                    "sortOrder": "byCreatedTime"
+                  }
+                }
+              },
+              {
+                "id": "1e65ebd0184b9f7b",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              }
+            ],
+            "currentTab": 2
+          }
+        ],
+        "direction": "horizontal",
+        "width": 253.5
+      },
+      "right": {
+        "id": "7e40f3bb0d6d194f",
+        "type": "split",
+        "children": [
+          {
+            "id": "16bb794ac7f09c0e",
+            "type": "tabs",
+            "dimension": 62.63383297644539,
+            "children": [
+              {
+                "id": "8abd18199d6ba380",
+                "type": "leaf",
+                "state": {
+                  "type": "file-properties",
+                  "state": {
+                    "file": "Zettelkasten/2023-10-26.md"
+                  }
+                }
+              },
+              {
+                "id": "ce3fc851fa73c35a",
+                "type": "leaf",
+                "state": {
+                  "type": "recent-files",
+                  "state": {}
+                }
+              },
+              {
+                "id": "4b046256a4717c50",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true
+                  }
+                }
+              },
+              {
+                "id": "e4bdb59474996f63",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "Zettelkasten/2023-10-26.md",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": false
+                  }
+                }
+              },
+              {
+                "id": "69eaadc0ed630d96",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "Zettelkasten/2023-10-26.md"
+                  }
+                }
+              },
+              {
+                "id": "ae985c3358411742",
+                "type": "leaf",
+                "state": {
+                  "type": "full-calendar-sidebar-view",
+                  "state": {}
+                }
+              },
+              {
+                "id": "c096d09e4fc0d2b0",
+                "type": "leaf",
+                "state": {
+                  "type": "reminder-list",
+                  "state": {}
+                }
+              },
+              {
+                "id": "6027845ba05b8952",
+                "type": "leaf",
+                "state": {
+                  "type": "advanced-tables-toolbar",
+                  "state": {}
+                }
+              },
+              {
+                "id": "18e782dadd7f5dbf",
+                "type": "leaf",
+                "state": {
+                  "type": "all-properties",
+                  "state": {
+                    "sortOrder": "frequency"
+                  }
+                }
+              },
+              {
+                "id": "2a78d93fa7172174",
+                "type": "leaf",
+                "state": {
+                  "type": "todo",
+                  "state": {}
+                }
+              }
+            ]
+          },
+          {
+            "id": "3a88e60964b09d6f",
+            "type": "tabs",
+            "dimension": 37.3661670235546,
+            "children": [
+              {
+                "id": "c71f442f6b1456bc",
+                "type": "leaf",
+                "state": {
+                  "type": "localgraph",
+                  "state": {
+                    "file": "Zettelkasten/2023-10-26.md",
+                    "options": {
+                      "collapse-filter": true,
+                      "search": "",
+                      "localJumps": 1,
+                      "localBacklinks": true,
+                      "localForelinks": true,
+                      "localInterlinks": false,
+                      "showTags": false,
+                      "showAttachments": false,
+                      "hideUnresolved": false,
+                      "collapse-color-groups": true,
+                      "colorGroups": [],
+                      "collapse-display": true,
+                      "showArrow": false,
+                      "textFadeMultiplier": 0,
+                      "nodeSizeMultiplier": 1,
+                      "lineSizeMultiplier": 1,
+                      "collapse-forces": true,
+                      "centerStrength": 0.518713248970312,
+                      "repelStrength": 10,
+                      "linkStrength": 1,
+                      "linkDistance": 250,
+                      "scale": 1,
+                      "close": true
+                    }
+                  }
+                }
+              },
+              {
+                "id": "ef7dfc612766af68",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "Zettelkasten/2023-10-26.md",
+                    "linksCollapsed": true,
+                    "unlinkedCollapsed": false
+                  }
+                }
+              },
+              {
+                "id": "df2267d033918e9c",
+                "type": "leaf",
+                "state": {
+                  "type": "calendar",
+                  "state": {}
+                }
+              }
+            ],
+            "currentTab": 2
+          }
+        ],
+        "direction": "horizontal",
+        "width": 334.5
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "daily-notes:Open today's daily note": false,
+          "templates:Insert template": false,
+          "graph:Open graph view": false,
+          "canvas:Create new canvas": false,
+          "switcher:Open quick switcher": true,
+          "command-palette:Open command palette": true,
+          "workspaces:Manage workspace layouts": false,
+          "audio-recorder:Start/stop recording": false,
+          "obsidian-excalidraw-plugin:Create new drawing": false,
+          "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false,
+          "templater-obsidian:Templater": false,
+          "dbfolder:Create a new database table": false,
+          "homepage:Open homepage": false,
+          "obsidian-media-db-plugin:Add new Media DB entry": false,
+          "obsidian-full-calendar:Open Full Calendar": false,
+          "ledger-obsidian:Add to Ledger": false,
+          "obsidian-projects:Open projects": false,
+          "obsidian-spaced-repetition:Review flashcards": false,
+          "table-editor-obsidian:Advanced Tables Toolbar": false,
+          "obsidian-leaflet-plugin:Open Leaflet Map": false,
+          "periodic-notes:Open today": false
+        }
+      },
+      "active": "8abd18199d6ba380",
+      "workspaces-plus:settings-v1": {}
+    }
+  },
+  "active": "Big Monitor with Tasks and Cal"
+}

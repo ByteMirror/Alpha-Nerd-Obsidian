@@ -1,0 +1,243 @@
+body {
+  /* use this to change color and weight of bold text */
+  --bold-weight: normal;
+  --bold-color: #ffc600;
+  /* used to change color of indentations */
+  --indentation-guide-color: #0b84ff;
+  /* Italic */
+  --italic-color: #62ba46;
+  --tag-color: #0b84ff;
+  /* Workspace */
+  --workspace-background-translucent: rgba(var(--mono-rgb-0), 0.6);
+}
+.CodeMirror-cursor,
+.cm-s-obsidian .cm-cursor {
+  transition: all 80ms;
+}
+rastonira stierans tiarenst raiostne 
+.theme-dark {
+  color-scheme: dark;
+  --text-selection: hsla(var(--interactive-accent-hsl), 0.5);
+}
+.theme-light {
+  color-scheme: dark;
+  --text-selection: hsla(var(--interactive-accent-hsl), 0.25);
+ }
+.markdown-source-view.mod-cm6 .cm-content {
+  flex-basis: unset !important;
+  caret-color: #0b84ff;
+  transition: all 80ms;
+  border-left-width: 0.5em;
+  opacity: 0.75;
+  width: 0.5em; 
+  
+}
+h1,
+.markdown-rendered h1,
+.HyperMD-header-1,
+.HyperMD-list-line .cm-header-1 {
+  font-variant: var(--h1-variant);
+  letter-spacing: -0.015em;
+  line-height: var(--h1-line-height);
+  font-size: var(--h1-size);
+  color: var(--h1-color);
+  font-weight: normal;
+  font-style: var(--h1-style);
+  font-family: var(--h1-font);
+}
+h1 a,
+.markdown-rendered h1 a,
+.HyperMD-header-1 a,
+.HyperMD-list-line .cm-header-1 a {
+  font-weight: inherit;
+}
+h2,
+.markdown-rendered h2,
+.HyperMD-header-2,
+.HyperMD-list-line .cm-header-2 {
+  font-variant: var(--h2-variant);
+  letter-spacing: -0.015em;
+  line-height: var(--h2-line-height);
+  font-size: var(--h2-size);
+  color: var(--h2-color);
+  font-weight: normal;
+  font-style: var(--h2-style);
+  font-family: var(--h2-font);
+}
+h2 a,
+.markdown-rendered h2 a,
+.HyperMD-header-2 a,
+.HyperMD-list-line .cm-header-2 a {
+  font-weight: inherit;
+}
+h3,
+.markdown-rendered h3,
+.HyperMD-header-3,
+.HyperMD-list-line .cm-header-3 {
+  font-variant: var(--h3-variant);
+  letter-spacing: -0.015em;
+  line-height: var(--h3-line-height);
+  font-size: var(--h3-size);
+  color: var(--h3-color);
+  font-weight: normal;
+  font-style: var(--h3-style);
+  font-family: var(--h3-font);
+}
+h3 a,
+.markdown-rendered h3 a,
+.HyperMD-header-3 a,
+.HyperMD-list-line .cm-header-3 a {
+  font-weight: inherit;
+}
+h4,
+.markdown-rendered h4,
+.HyperMD-header-4,
+.HyperMD-list-line .cm-header-4 {
+  font-variant: var(--h4-variant);
+  letter-spacing: 0.015em;
+  line-height: var(--h4-line-height);
+  font-size: var(--h4-size);
+  color: var(--h4-color);
+  font-weight: normal;
+  font-style: var(--h4-style);
+  font-family: var(--h4-font);
+}
+h4 a,
+.markdown-rendered h4 a,
+.HyperMD-header-4 a,
+.HyperMD-list-line .cm-header-4 a {
+  font-weight: inherit;
+}
+h5,
+.markdown-rendered h5,
+.HyperMD-header-5,
+.HyperMD-list-line .cm-header-5 {
+  font-variant: var(--h5-variant);
+  letter-spacing: 0.015em;
+  font-size: var(--h5-size);
+  line-height: var(--h5-line-height);
+  color: normal;
+  font-weight: var(--h5-weight);
+  font-style: var(--h5-style);
+  font-family: var(--h5-font);
+}
+h5 a,
+.markdown-rendered h5 a,
+.HyperMD-header-5 a,
+.HyperMD-list-line .cm-header-5 a {
+  font-weight: inherit;
+}
+h6,
+.markdown-rendered h6,
+.HyperMD-header-6,
+.HyperMD-list-line .cm-header-6 {
+  font-variant: var(--h6-variant);
+  letter-spacing: 0.015em;
+  font-size: var(--h6-size);
+  line-height: var(--h6-line-height);
+  color: var(--h6-color);
+  font-weight: normal;
+  font-style: var(--h6-style);
+  font-family: var(--h6-font);
+}
+h6 a,
+.markdown-rendered h6 a,
+.HyperMD-header-6 a,
+.HyperMD-list-line .cm-header-6 a {
+  font-weight: inherit;
+}
+.HyperMD-header .cm-header-1,
+.HyperMD-header .cm-header-2,
+.HyperMD-header .cm-header-3,
+.HyperMD-header .cm-header-4,
+.HyperMD-header .cm-header-5,
+.HyperMD-header .cm-header-6 {
+  font-size: inherit !important;
+}
+body:not(.is-grabbing) .nav-file-title.is-active:hover,
+body:not(.is-grabbing) .nav-folder-title.is-active:hover,
+.nav-file-title.is-active,
+.nav-folder-title.is-active {
+  color: black;
+  background-color: rgb(255, 255,255);
+  font-weight: var(--nav-item-weight-active);
+}
+.theme-dark {
+color-scheme: dark;
+--highlight-mix-blend-mode: lighten;
+--mono-rgb-0: 0, 0, 0;
+--mono-rgb-100: 255, 255, 255;
+--color-red-rgb: 251, 70, 76;
+--color-red: #fb464c;
+--color-green-rgb: 68, 207, 110;
+--color-green: #44CF6E;
+--color-orange: #E9973F;
+--color-yellow: #E0DE71;
+--color-cyan: #53DFDD;
+--color-blue: #027aff;
+--color-purple: #a882ff;
+--color-pink: #FA99CD;
+
+--color-base-10: #242424;
+--color-base-20: #303030;
+--color-base-25: #2a2a2a;
+--color-base-30: #363636;
+--color-base-35: #3F3F3F;
+--color-base-40: #555;
+--color-base-50: #666;
+--color-base-60: #999;
+--color-base-70: #bababa;
+--color-base-100: #dadada;
+}
+
+@-webkit-keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: black;
+  }
+}
+.cm-cursor{
+  transition: all 80ms;
+}
+
+.cursor {
+  transition: all 80ms;
+}
+.CodeMirror-cursor {
+  transition: all 80ms;
+}
+@media print { 
+    .print .markdown-preview-view { 
+        -webkit-print-color-adjust: exact; 
+        background-color: #202020; 
+        color: #dcddde;
+    }
+}
+
+/* This code is for changing the hashes of headers to be visible always */
+.cm-line > span.cm-header-1:not(.cm-formatting):before { content: "# "; }
+.cm-line.cm-active > span.cm-header-1 > span:not(.cm-selection):before { content: "# "; }
+.cm-line > span.cm-header-1 ~ span.cm-header-1:not(.cm-formatting):before { content: ""; }
+
+.cm-line > span.cm-header-2:not(.cm-formatting):before { content: "## "; }
+.cm-line.cm-active > span.cm-header-2 > span:not(.cm-selection):before { content: "## "; }
+.cm-line > span.cm-header-2 ~ span.cm-header-2:not(.cm-formatting):before { content: ""; }
+
+.cm-line > span.cm-header-3:not(.cm-formatting):before { content: "### "; }
+.cm-line.cm-active > span.cm-header-3 > span:not(.cm-selection):before { content: "### "; }
+.cm-line > span.cm-header-3 ~ span.cm-header-3:not(.cm-formatting):before { content: ""; }
+
+.cm-line > span.cm-header-4:not(.cm-formatting):before { content: "#### "; }
+.cm-line.cm-active > span.cm-header-4 > span:not(.cm-selection):before { content: "#### "; }
+.cm-line > span.cm-header-4 ~ span.cm-header-4:not(.cm-formatting):before { content: ""; }
+
+.cm-line > span.cm-header-5:not(.cm-formatting):before { content: "##### "; }
+.cm-line.cm-active > span.cm-header-5 > span:not(.cm-selection):before { content: "##### "; }
+.cm-line > span.cm-header-5 ~ span.cm-header-5:not(.cm-formatting):before { content: ""; }
+
+.cm-line > span.cm-header-6:not(.cm-formatting):before { content: "###### "; }
+.cm-line.cm-active > span.cm-header-6 > span:not(.cm-selection):before { content: "###### "; }
+.cm-line > span.cm-header-6 ~ span.cm-header-6:not(.cm-formatting):before { content: ""; }

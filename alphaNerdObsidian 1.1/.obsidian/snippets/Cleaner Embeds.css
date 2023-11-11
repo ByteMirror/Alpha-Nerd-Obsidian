@@ -1,0 +1,33 @@
+/* Hide alt text of PDF embed */
+.internal-embed.pdf-embed::before {
+  display: none;
+}
+
+/* This part will make any pdf embed which specifies a specific page unscrollable */
+.internal-embed.pdf-embed[src*="page="] .pdf-container {
+  pointer-events: none;
+}
+/* This part will hide the pdf toolbar for any pdf embed that specifies a specific page */
+.internal-embed.pdf-embed[src*="page="] .pdf-toolbar {
+  display: none;
+}
+
+.pdf-viewer-container.node-insert-event {
+  overflow: hidden;
+}
+
+/* This snippet overrides the influence of the supercharged links plugin on color of booksmarks*/
+.tree-item-inner.data-link-icon.data-link-icon-after.data-link-text {
+  color: #8C8C8C !important;
+}
+
+
+.setting-item-description::before, 
+data-link-icon[data-link-path^="Dashboards/" i]::before {
+  display: none;
+}
+/* This Snippet hides the Icon from Supercharged links in the bookmarks section*/
+div.tree-item-inner.data-link-icon.data-link-icon-after.data-link-text::before {
+  display: none;
+}
+

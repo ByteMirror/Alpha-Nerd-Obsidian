@@ -1,0 +1,179 @@
+{
+  "mapMarkers": [
+    {
+      "id": "leaflet-map",
+      "lastAccessed": 1698603722349,
+      "markers": [
+        {
+          "id": "ID_d85af829fb29",
+          "type": "default",
+          "loc": [
+            -0.9760856628417969,
+            1.4538917541503906
+          ],
+          "link": "2023-10-28",
+          "layer": "%5B%5BRicardo%20Modell.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.5112586388221154,
+            0.45185882402802896
+          ],
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_fbfbfa49fa69",
+          "type": "default",
+          "loc": [
+            -0.9651947021484375,
+            1.5896797180175781
+          ],
+          "layer": "%5B%5BRicardo%20Modell.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_39fa09ca2bb8",
+          "type": "default",
+          "loc": [
+            52.544051239026984,
+            6.779492497444154
+          ],
+          "layer": "real",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        }
+      ],
+      "overlays": [],
+      "shapes": [
+        {
+          "type": "polyline",
+          "color": "#3388FF",
+          "vertices": [
+            {
+              "lat": 52.2440843039221,
+              "lng": 6.537964940071107,
+              "id": "ID_194aea1ba91b",
+              "targets": {
+                "vertexIds": [
+                  "ID_c8091b6a29ca"
+                ]
+              }
+            },
+            {
+              "lat": 52.458062224919324,
+              "lng": 6.8564021587371835,
+              "id": "ID_4ac8b95aca18",
+              "targets": {
+                "vertexIds": []
+              }
+            },
+            {
+              "lat": 52.365917560111264,
+              "lng": 6.9854915142059335,
+              "id": "ID_e84a09786af8",
+              "targets": {
+                "vertexIds": []
+              }
+            },
+            {
+              "lat": 52.2440843039221,
+              "lng": 6.537964940071107,
+              "id": "ID_c8091b6a29ca",
+              "targets": {
+                "vertexIds": [
+                  "ID_194aea1ba91b"
+                ]
+              }
+            },
+            {
+              "lat": 52.41620215113155,
+              "lng": 6.9374263286590585,
+              "id": "ID_ab88a8fa892a",
+              "targets": {
+                "vertexIds": []
+              }
+            },
+            {
+              "lat": 52.37430230376662,
+              "lng": 6.8701350688934335,
+              "id": "ID_59f88a78d9f8",
+              "targets": {
+                "vertexIds": []
+              }
+            },
+            {
+              "lat": 52.33152346878381,
+              "lng": 7.0678889751434335,
+              "id": "ID_19fab84bb9e9",
+              "targets": {
+                "vertexIds": []
+              }
+            },
+            {
+              "lat": 52.441882134989896,
+              "lng": 6.728814840316773,
+              "id": "ID_5b5a5a7bd86a",
+              "targets": {
+                "vertexIds": []
+              }
+            }
+          ],
+          "arrows": false,
+          "reversed": false
+        }
+      ],
+      "files": [
+        "Zettelkasten/2023-10-28.md"
+      ]
+    }
+  ],
+  "defaultMarker": {
+    "type": "default",
+    "iconName": "map-marker",
+    "color": "#ff9999",
+    "transform": {
+      "size": 6,
+      "x": 0,
+      "y": -2
+    }
+  },
+  "markerIcons": [],
+  "color": "#dddddd",
+  "lat": 39.983334,
+  "long": -82.98333,
+  "notePreview": true,
+  "layerMarkers": true,
+  "previousVersion": "5.8.0",
+  "version": {
+    "major": 5,
+    "minor": 8,
+    "patch": 0
+  },
+  "warnedAboutMapMarker": false,
+  "copyOnClick": false,
+  "displayMarkerTooltips": "hover",
+  "displayOverlayTooltips": true,
+  "configDirectory": null,
+  "mapViewEnabled": true,
+  "mapViewParameters": {},
+  "enableDraw": true,
+  "defaultUnitType": "metric",
+  "defaultTile": "https://stamen-tiles.a.ssl.fastly.net/terrain/{z}/{x}/{y}.png",
+  "defaultTileDark": "https://stamen-tiles.a.ssl.fastly.net/terrain/{z}/{x}/{y}.png",
+  "defaultAttribution": "Map tiles by <a href=\"http://stamen.com\">Stamen Design</a>, under <a href=\"http://creativecommons.org/licenses/by/3.0\">CC BY 3.0</a>. Data by <a href=\"http://openstreetmap.org\">OpenStreetMap</a>, under <a href=\"http://www.openstreetmap.org/copyright\">ODbL</a>.",
+  "defaultTileSubdomains": "a,b,c"
+}

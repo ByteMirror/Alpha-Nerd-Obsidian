@@ -1,0 +1,274 @@
+{
+  "version": 2,
+  "projects": [
+    {
+      "fieldConfig": {},
+      "defaultName": "",
+      "templates": [],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "tag",
+        "config": {
+          "tag": "#Context/VocationalSchool",
+          "hierarchy": true
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {},
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "b8922aff-acfc-45cf-a6d2-de6bcd00e7cc",
+          "name": "Table",
+          "type": "table"
+        },
+        {
+          "config": {
+            "filepath": "/4a68c7ba-0138-4049-aed2-bdb52f5a2297_db.md"
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "4a68c7ba-0138-4049-aed2-bdb52f5a2297",
+          "name": "Database Folder",
+          "type": "dbfolder-view"
+        },
+        {
+          "config": {},
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": [
+              {
+                "color": "#a882ff",
+                "condition": {
+                  "field": "status",
+                  "operator": "is-empty",
+                  "enabled": true
+                }
+              }
+            ]
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "87551ca0-41a3-4cd4-b809-1a2183a1e90c",
+          "name": "Board",
+          "type": "board"
+        }
+      ],
+      "id": "725cc592-6088-4f87-a74b-7ff518c193c8",
+      "name": "Test Project"
+    },
+    {
+      "fieldConfig": {},
+      "defaultName": "",
+      "templates": [],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "tag",
+        "config": {
+          "tag": "#ObjectType/Person",
+          "hierarchy": false
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {},
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "ddb4aadd-97e6-44d0-98e8-a80f53285db4",
+          "name": "Table",
+          "type": "table"
+        },
+        {
+          "config": {
+            "interval": "month"
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "b1bbd9c3-7f70-4ee4-97cc-2ce0b56da804",
+          "name": "Calendar",
+          "type": "calendar"
+        }
+      ],
+      "id": "f1ce829d-7ec0-4513-aa9c-4491b4031554",
+      "name": "People"
+    },
+    {
+      "fieldConfig": {
+        "director": {}
+      },
+      "defaultName": "",
+      "templates": [],
+      "excludedNotes": [
+        "Templates/New Movie.md"
+      ],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "tag",
+        "config": {
+          "tag": "#movies",
+          "hierarchy": false
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {},
+          "filter": {
+            "conditions": [
+              {
+                "field": "finished",
+                "operator": "is-not-checked",
+                "enabled": false
+              }
+            ]
+          },
+          "colors": {
+            "conditions": [
+              {
+                "color": "#a882ff",
+                "condition": {
+                  "field": "finished",
+                  "operator": "is-not-checked",
+                  "enabled": true
+                }
+              },
+              {
+                "color": "#80ffce",
+                "condition": {
+                  "field": "finished",
+                  "operator": "is-checked",
+                  "enabled": true
+                }
+              }
+            ]
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "40da9c57-ef7c-4f73-bfa7-f6c7613e9cbc",
+          "name": "Table",
+          "type": "table"
+        },
+        {
+          "config": {
+            "includeFields": [
+              "finished",
+              "rating"
+            ],
+            "coverField": "poster",
+            "fitStyle": "cover"
+          },
+          "filter": {
+            "conditions": [
+              {
+                "field": "finished",
+                "operator": "is-not-checked",
+                "enabled": false
+              },
+              {
+                "field": "name",
+                "operator": "contains",
+                "enabled": false,
+                "value": "Two"
+              }
+            ]
+          },
+          "colors": {
+            "conditions": [
+              {
+                "color": "#a882ff",
+                "condition": {
+                  "field": "finished",
+                  "operator": "is-not-checked",
+                  "enabled": true
+                }
+              },
+              {
+                "color": "#80fff0",
+                "condition": {
+                  "field": "finished",
+                  "operator": "is-checked",
+                  "enabled": true
+                }
+              }
+            ]
+          },
+          "sort": {
+            "criteria": [
+              {
+                "field": "rating",
+                "order": "asc",
+                "enabled": true
+              }
+            ]
+          },
+          "id": "7850c987-2d94-4a29-aafa-c650eb7b2682",
+          "name": "Gallery",
+          "type": "gallery"
+        },
+        {
+          "config": {
+            "includeFields": []
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "712ee8ba-7524-4180-a1de-4dcc5a32b06c",
+          "name": "Board",
+          "type": "board"
+        }
+      ],
+      "id": "06125b6a-3dd9-4c36-abf6-45d4dca7b962",
+      "name": "Watchlist"
+    }
+  ],
+  "preferences": {
+    "projectSizeLimit": 1000,
+    "frontmatter": {
+      "quoteStrings": "PLAIN"
+    },
+    "commands": [],
+    "linkBehavior": "open-editor"
+  }
+}

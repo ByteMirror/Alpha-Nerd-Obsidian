@@ -1,0 +1,36 @@
+{
+  "calendarSources": [
+    {
+      "type": "ical",
+      "color": "#c17171",
+      "url": "https://campus.bildungscentrum.de/nfcampus/C031A51F-8529-E60A-74E9-70BA46A7A8F3/campus-termine.ics"
+    },
+    {
+      "type": "local",
+      "color": "#a1ccd1",
+      "directory": "Calendar Views/University"
+    },
+    {
+      "type": "local",
+      "color": "#c8e4b2",
+      "directory": "Calendar Views/Personal"
+    },
+    {
+      "type": "local",
+      "color": "#dfbbfc",
+      "directory": "Calendar Views/Vocational School"
+    },
+    {
+      "type": "local",
+      "color": "#ffd89c",
+      "directory": "Calendar Views/Work"
+    }
+  ],
+  "defaultCalendar": 0,
+  "firstDay": 1,
+  "initialView": {
+    "desktop": "timeGridWeek",
+    "mobile": "timeGrid3Days"
+  },
+  "timeFormat24h": true
+}

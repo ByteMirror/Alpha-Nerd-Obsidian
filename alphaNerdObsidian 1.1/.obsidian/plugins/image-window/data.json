@@ -1,0 +1,17 @@
+{
+  "saveWindowLocations": true,
+  "windows": {
+    "DEFAULT": {
+      "hosts": {
+        "Fabians-MBP.fritz.box": {
+          "x": 393,
+          "y": 268,
+          "width": 618,
+          "height": 930,
+          "fullscreen": false,
+          "maximized": false
+        }
+      }
+    }
+  }
+}

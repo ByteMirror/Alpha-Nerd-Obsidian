@@ -1,0 +1,9 @@
+{
+  "citationExportFormat": "biblatex",
+  "literatureNoteTitleTemplate": "@{{citekey}}",
+  "literatureNoteFolder": "Research",
+  "literatureNoteContentTemplate": "---\ntitle: {{title}}\nauthors: {{authorString}}\nyear: {{year}}\ntags: \n---\n\n## {{authorString}} ({{year}})\n[PDF]({{citekey}}.pdf)\n[Zotero-Link]({{zoteroSelectURI}})\n\n>[!ABSTRACT]-\n>{{abstract}}\n\n---",
+  "markdownCitationTemplate": "[@{{citekey}}]",
+  "alternativeMarkdownCitationTemplate": "@{{citekey}}",
+  "citationExportPath": "/Users/fabian/Dropbox/Obsidian/MainVault/PDFs/Research/My Library.bib"
+}

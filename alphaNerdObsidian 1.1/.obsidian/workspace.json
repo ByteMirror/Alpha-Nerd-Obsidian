@@ -1,0 +1,436 @@
+{
+  "main": {
+    "id": "31ecc46e6e068c94",
+    "type": "split",
+    "children": [
+      {
+        "id": "22666fc659935fee",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a87223b540e7ef44",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MOCs/Home.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "5e3e787a2d16f868",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Zettelkasten/2023-11-11.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "68f886891450146e",
+    "type": "split",
+    "children": [
+      {
+        "id": "cc20c3e96a95756d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "55ee7d2746421498",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          },
+          {
+            "id": "bf61a2648c1d2317",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:Context/BBraun/FrontendClient",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "byCreatedTime"
+              }
+            }
+          },
+          {
+            "id": "1e65ebd0184b9f7b",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "7e40f3bb0d6d194f",
+    "type": "split",
+    "children": [
+      {
+        "id": "16bb794ac7f09c0e",
+        "type": "tabs",
+        "dimension": 28.257456828885402,
+        "children": [
+          {
+            "id": "df2267d033918e9c",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "0c8b68e04157b072",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "DICE_ROLLER_VIEW",
+              "state": {}
+            }
+          }
+        ]
+      },
+      {
+        "id": "331dc9e8d2c01cd0",
+        "type": "tabs",
+        "dimension": 71.7425431711146,
+        "children": [
+          {
+            "id": "8abd18199d6ba380",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "Zettelkasten/2023-11-11.md"
+              }
+            }
+          },
+          {
+            "id": "69eaadc0ed630d96",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Zettelkasten/2023-11-11.md"
+              }
+            }
+          },
+          {
+            "id": "ce3fc851fa73c35a",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "recent-files",
+              "state": {}
+            }
+          },
+          {
+            "id": "4b046256a4717c50",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "a8870c8e8fec6ae8",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
+              }
+            }
+          },
+          {
+            "id": "e4bdb59474996f63",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Zettelkasten/2023-11-11.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "ef7dfc612766af68",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Zettelkasten/2023-11-11.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "d068a92c3306d823",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 314.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "switcher:Open quick switcher": true,
+      "command-palette:Open command palette": true,
+      "workspaces:Manage workspace layouts": false,
+      "audio-recorder:Start/stop recording": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false,
+      "dbfolder:Create a new database table": false,
+      "homepage:Open homepage": false,
+      "obsidian-media-db-plugin:Add new Media DB entry": false,
+      "obsidian-full-calendar:Open Full Calendar": false,
+      "obsidian-projects:Open projects": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-leaflet-plugin:Open Leaflet Map": false,
+      "obsidian-spaced-repetition:Review flashcards": false,
+      "darlal-switcher-plus:Open in Headings Mode": false,
+      "darlal-switcher-plus:Open Symbols for the active editor": false,
+      "obsidian42-brat:BRAT": false,
+      "obsidian-5e-statblocks:Open Creature Pane": false,
+      "periodic-notes:Open today": false
+    }
+  },
+  "active": "5e3e787a2d16f868",
+  "lastOpenFiles": [
+    "MOCs/Home.md",
+    "Lectures/IT und Medienrecht 2023-11-09.md",
+    "excalibrain.md",
+    "Zettelkasten/2023-11-09.md",
+    "Music/Sheet Music/Klavier/Ich spiele vom Blatt Nr. 1.pdf",
+    "Music/Sheet Music/Klavier/Ich Spiele Vom Blatt Nr. 2.pdf",
+    "Music/Sheet Music/Gesang/My Way.pdf",
+    "Music/Sheet Music/Gesang/AutumLeaves.pdf",
+    "Music/Sheet Music/Gesang/At The River.pdf",
+    "Music/Sheet Music/Gesang/Angedenken.pdf",
+    "Music/Sheet Music/Gesang/Abendlich.pdf",
+    "Music/Sheet Music/Gesang/9 Fichtenbaum und Palme.pdf",
+    "Music/Sheet Music/Gesang/02-CAN'T HELP FALLING IN LOVE.pdf",
+    "Knowledge/Loop of Interaction.md",
+    "Music/Sheet Music/Weinachtslieder/Weihnachtslieder als pdf.zip",
+    "Music/Sheet Music/Gitarre/Acalanto Das Nonas Baden Powell.jpg",
+    "Images/00 Image Gallery.md",
+    "MOCs/Human Computer Interaction Evolution and Future of Apple's User Interface Design MOC.md",
+    "Images/Human Computer Interaction Loop.md",
+    "chapter 1 HCI.md",
+    "Pets/Chetney.md",
+    "Human Computer Interaction Assignment Mindmap.canvas",
+    "Humans/Luan Ramaj.md",
+    "Images/Chetney plays with water the first time.md",
+    "Obsidian Guidelines/tracker examples/diary/Jeffrey-20210101-Journal.md",
+    "Zettelkasten/Weeks/2023-W44.md",
+    "Obsidian Guidelines/Obsidian Notes Cheat Sheet v3.0.md",
+    "Attachments/Pasted Image 20231109164946_477.png",
+    "Assignments/Business English Writing Book 5 Test 2.md",
+    "TheGarden/wordcount.md",
+    "Excalidraw/Drawing 2023-11-09 15.01.35.excalidraw.md",
+    "PDFs/Sheet Music/Gitarre/Acalanto Das Nonas Baden Powell.jpg",
+    "PDFs/Music/Sheet Music/Gitarre/Acalanto Das Nonas Baden Powell.jpg",
+    "Music/Ingenue - Atoms for Peace.md",
+    "Music/Corcovado (Quiet Nights of Quiet Stars).md",
+    "Images/Ingenue Lyrics and Chords Atoms for Peace.md",
+    "Attachments/Pasted Image 20231108155036_751.png",
+    "Attachments/Pasted image 20231108154952.png",
+    "Zettelkasten/2023-11-08.md",
+    "MOCs/Readwise Library.md",
+    "MOCs/Watchlist.md",
+    "Movies/Escape Room Tournament of Champions.md",
+    "TheGarden/Thoughts.canvas",
+    "Attachments/Pasted Image 20231107122244_052.png",
+    "Attachments/Pasted Image 20231106133854_164.png",
+    "Attachments/Pasted Image 20231106133837_621.png",
+    "Attachments/Pasted Image 20231106133822_247.png",
+    "TheGarden/Datenbankmanagement.canvas",
+    "TheGarden/1. Deskriptive Statistik.canvas",
+    "TheGarden/Kurz Drittes Lehrjahr.canvas",
+    "TheGarden/Ide Wirtschaft.canvas",
+    "Images/Untitled.canvas",
+    "TheGarden/Wirtschaft Bechtel Lehrjahr 3 (1).canvas",
+    "TheGarden/🧑🏼‍💻 Objektorientiertes Programmieren.canvas",
+    "TheGarden/Compendium of Secret Knowledge.canvas"
+  ]
+}

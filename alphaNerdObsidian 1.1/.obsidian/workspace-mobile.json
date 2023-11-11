@@ -1,0 +1,298 @@
+{
+  "main": {
+    "id": "31ecc46e6e068c94",
+    "type": "split",
+    "children": [
+      {
+        "id": "47cae16afb32ab29",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "666bec5eeab5b634",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Song Names.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "df5a1d8a243263ac",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Zettelkasten/2022-12-26.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9b7579431eb44752",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "1b8603b4207de602",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Entscheidungstechniken Overview.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8a0bcc3f509c5a68",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Wissenschaftliches Arbeiten.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "afcbd2f4bb8fd5aa",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2614ef9bb0df116c",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "Song Names.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 1.5987179221708938,
+                  "close": false
+                }
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "44c360d352aa73a8",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "dd566d273cef8b3b",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "d6dbb327167b7bb4",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "29589c3dcab77864",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          }
+        }
+      },
+      {
+        "id": "e9a4b4036f0d60e9",
+        "type": "leaf",
+        "state": {
+          "type": "starred",
+          "state": {}
+        }
+      },
+      {
+        "id": "0dc0c0f3ea503e8b",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 1
+  },
+  "right": {
+    "id": "633ceb09587691ac",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "e5ea468c726bbb14",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "Song Names.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "59cb0aee03a826a7",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "Song Names.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "bd853e54f49f2b7b",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "Song Names.md"
+          }
+        }
+      },
+      {
+        "id": "5ad0e9fab11909a3",
+        "type": "leaf",
+        "state": {
+          "type": "calendar",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false,
+      "obsidian-textgenerator-plugin:Generate Text!": false,
+      "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false,
+      "templater-obsidian:Templater": false,
+      "dbfolder:Create a new database table": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "command-palette:Open command palette": false,
+      "zk-prefixer:Create new unique note": false,
+      "audio-recorder:Start/stop recording": false,
+      "periodic-notes:Open today": false
+    }
+  },
+  "active": "666bec5eeab5b634",
+  "lastOpenFiles": [
+    "Zettelkasten/2023-06-23.md",
+    "Song Names.md",
+    "Zettelkasten/2023-06-16.md",
+    "Zettelkasten/2023-06-09.md",
+    "Zettelkasten/2023-06-07.md",
+    "Zipfsche's Gesetz.canvas",
+    "Herr Kurz 20230606.md",
+    "Attachments/Pasted image 20230606180839.png",
+    "Attachments/Pasted image 20230606180812.png",
+    "Vertikale Integration.md",
+    "Canvas Methode.md",
+    "Horizontale Integration.md",
+    "Zettelkasten/2023-06-06.md",
+    "Zettelkasten/2023-06-05.md",
+    "Attachments/Pasted image 20230605184247.png",
+    "🖇️ Important Links.canvas",
+    "🧠 Brainstorming Wissenschaftliches Arbeiten.canvas",
+    "📊 Quantitative Methoden der Informatik.canvas",
+    "4. Statistik - Klausurvorbereitung.canvas",
+    "Canvas Business Modell 03.06.23.canvas",
+    "Drawing 2023-06-03 11.01.53.excalidraw.md",
+    "Attachments/Pasted image 20230603100734.png",
+    "Attachments/Pasted image 20230603085010.png",
+    "E-Business.canvas",
+    "Attachments/Pasted image 20230603105828.png",
+    "Attachments/Pasted image 20230603085631.png",
+    "Wissenschaftliches Arbeiten.canvas",
+    "FOM Stipendium Pitch.canvas",
+    "Lost Mines of Phandelver 23.canvas",
+    "Attachments/Pasted Image 20230521125439_874.png",
+    "Attachments/Pasted Image 20230524140925_769.png",
+    "Attachments/Pasted image 20230525133351.png",
+    "Lernfeld 6 Lesson 2022-11-29.md",
+    "Wissenschaftliches Arbeiten.md",
+    "Zettelkasten/2023-03-14.md",
+    "SQL Tasks 2023-03-07.md",
+    "Quantitative Methoden - To-Do.md",
+    "Excalidraw/IPv6 Aufgaben AP 1.excalidraw.md",
+    "Attachments/Formelsammlung Statistik FOM_BWI.pdf",
+    "Attachments/Formelsammlung Statistik FOM_BWI 1.pdf",
+    "Zettelkasten/2023-02-18.md",
+    "Excalidraw/Scripts/Downloaded/Slideshow.md",
+    "Excalidraw/Scripts/Downloaded/Text Arch.md",
+    "Zettelkasten/2023-02-22.md",
+    "Excalidraw/AP1 2022.excalidraw.md",
+    "Excalidraw/Scripts/Downloaded/Split text by lines.md",
+    "Excalidraw/Scripts/Downloaded/Organic Line.md",
+    "Excalidraw/Scripts/Downloaded/Mindmap connector.md"
+  ]
+}

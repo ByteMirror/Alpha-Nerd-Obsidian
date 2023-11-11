@@ -1,0 +1,377 @@
+{
+  "choices": [
+    {
+      "id": "9dc3c630-2426-41d5-8fa1-f891c23bf8eb",
+      "name": "Add Timestamp and Move Cursor",
+      "type": "Macro",
+      "command": true,
+      "macroId": "b0ecd78e-9d93-4718-9d6f-90f7aa36d99d"
+    },
+    {
+      "id": "35ea7594-3b86-4556-bf25-e181d33cc245",
+      "name": "Zen Mode",
+      "type": "Macro",
+      "command": true,
+      "macroId": "d1d741aa-b4c1-4879-9741-ccd095545ccf"
+    },
+    {
+      "id": "ab3889cb-6491-4b83-b702-14d388556c97",
+      "name": "Add Movie",
+      "type": "Macro",
+      "command": true,
+      "macroId": "60ecb52f-e728-4590-840f-3622d663409c"
+    },
+    {
+      "id": "44bf8b42-282b-453b-a200-c6bdea6843a0",
+      "name": "Add Link To PDF Page",
+      "type": "Macro",
+      "command": true,
+      "macroId": "65fbe4ed-c243-4b71-897f-411e5592fded"
+    },
+    {
+      "id": "15008879-ca73-4d74-8e4b-c171c3529e1c",
+      "name": "Capture - Add to Daily Note Log",
+      "type": "Capture",
+      "command": true,
+      "appendLink": false,
+      "captureTo": "Zettelkasten/{{DATE:YYYY-MM-DD}}.md",
+      "captureToActiveFile": false,
+      "createFileIfItDoesntExist": {
+        "enabled": false,
+        "createWithTemplate": false,
+        "template": ""
+      },
+      "format": {
+        "enabled": true,
+        "format": "- {{DATE:HH:MM}} {{VALUE}}\n"
+      },
+      "insertAfter": {
+        "enabled": true,
+        "after": "## Log",
+        "insertAtEnd": true,
+        "considerSubsections": false,
+        "createIfNotFound": false,
+        "createIfNotFoundLocation": "top"
+      },
+      "prepend": false,
+      "task": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "default"
+    },
+    {
+      "id": "5ae9c390-b319-4a39-ae30-4a42bde4d2ee",
+      "name": "Test",
+      "type": "Multi",
+      "command": false,
+      "choices": []
+    },
+    {
+      "id": "e84ed1d6-de7d-4acc-bd10-f18cad6d7f66",
+      "name": "Insert Image",
+      "type": "Macro",
+      "command": true,
+      "macroId": "1c9bf789-677f-48a4-ba28-a43ecb5a7099"
+    }
+  ],
+  "macros": [
+    {
+      "name": "Add Timestamp and Move Cursor",
+      "id": "b0ecd78e-9d93-4718-9d6f-90f7aa36d99d",
+      "commands": [
+        {
+          "name": "Media Extended: Get timestamp from player",
+          "type": "Obsidian",
+          "id": "51c3496f-7fdd-471c-856b-985ca6867e44",
+          "commandId": "media-extended:get-timestamp"
+        },
+        {
+          "name": "Templater: Jump to next cursor location",
+          "type": "Obsidian",
+          "id": "4b5ec37c-a0e7-4113-832f-6f9387d6205c",
+          "commandId": "templater-obsidian:jump-to-next-cursor-location"
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Zen Mode",
+      "id": "d1d741aa-b4c1-4879-9741-ccd095545ccf",
+      "commands": [
+        {
+          "name": "Toggle left sidebar",
+          "type": "Obsidian",
+          "id": "fb998449-8c21-4c1b-a769-d9e4ccd39b17",
+          "commandId": "app:toggle-left-sidebar"
+        },
+        {
+          "name": "Toggle right sidebar",
+          "type": "Obsidian",
+          "id": "d1ab048e-1dad-4759-8bc3-08040bae0696",
+          "commandId": "app:toggle-right-sidebar"
+        },
+        {
+          "name": "Minimal Theme Settings: Toggle focus mode",
+          "type": "Obsidian",
+          "id": "c20c2a80-9001-4945-8401-0e7c6f7f670f",
+          "commandId": "obsidian-minimal-settings:toggle-minimal-focus-mode"
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Lookup Movie",
+      "id": "812a5929-26d7-4615-b39e-69cbc0071412",
+      "commands": [
+        {
+          "name": "movies",
+          "type": "UserScript",
+          "id": "d2ca85ad-3fc5-4dee-b401-317edb170a27",
+          "path": "Scripts/movies.js",
+          "settings": {}
+        },
+        {
+          "name": "Untitled Template Choice",
+          "type": "NestedChoice",
+          "id": "325b5cba-2895-4f33-99a6-f7162afab604",
+          "choice": {
+            "id": "73dbdd9b-f58e-4271-ba7e-7559551b07aa",
+            "name": "Untitled Template Choice",
+            "type": "Template",
+            "command": false,
+            "templatePath": "Templates/New Movie.md",
+            "fileNameFormat": {
+              "enabled": true,
+              "format": "{{VALUE:fileName}}"
+            },
+            "folder": {
+              "enabled": true,
+              "folders": [
+                "Movies"
+              ],
+              "chooseWhenCreatingNote": false,
+              "createInSameFolderAsActiveFile": false,
+              "chooseFromSubfolders": false
+            },
+            "appendLink": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": false,
+            "openFileInMode": "default",
+            "fileExistsMode": "Increment the file name",
+            "setFileExistsBehavior": false
+          }
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "New Movie",
+      "id": "0925d555-273a-4588-9a34-4921f5114456",
+      "commands": [],
+      "runOnStartup": false
+    },
+    {
+      "name": "Add Movie",
+      "id": "60ecb52f-e728-4590-840f-3622d663409c",
+      "commands": [
+        {
+          "name": "movies",
+          "type": "UserScript",
+          "id": "848a5d72-e2c8-450b-88fd-535291e90cf3",
+          "path": "Scripts/movies.js",
+          "settings": {
+            "OMDb API Key": "a6f8aa49"
+          }
+        },
+        {
+          "name": "Untitled Template Choice",
+          "type": "NestedChoice",
+          "id": "3ebd6240-e0db-4a79-96ef-b3cce5bd01ff",
+          "choice": {
+            "id": "5a5e8ab9-c77d-4100-8a23-8716afb08677",
+            "name": "Untitled Template Choice",
+            "type": "Template",
+            "command": false,
+            "templatePath": "Templates/New Movie.md",
+            "fileNameFormat": {
+              "enabled": true,
+              "format": "{{VALUE:fileName}}"
+            },
+            "folder": {
+              "enabled": true,
+              "folders": [
+                "Movies"
+              ],
+              "chooseWhenCreatingNote": false,
+              "createInSameFolderAsActiveFile": false,
+              "chooseFromSubfolders": false
+            },
+            "appendLink": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": false,
+            "openFileInMode": "default",
+            "fileExistsMode": "Increment the file name",
+            "setFileExistsBehavior": false
+          }
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Add Link to PDF Page",
+      "id": "43233bb7-6c29-4cc0-869a-3c2cbc55ebf8",
+      "commands": [
+        {
+          "name": "ZoteroToObsidian",
+          "type": "UserScript",
+          "id": "648d9a1f-a445-42c6-8502-714b480c15b9",
+          "path": "Scripts/ZoteroToObsidian.js",
+          "settings": {}
+        },
+        {
+          "name": "Untitled Capture Choice",
+          "type": "NestedChoice",
+          "id": "0bbb88b0-2bfe-47df-a8b2-f151d50935bd",
+          "choice": {
+            "id": "546e337a-75e8-4395-bcbf-3289cbe6bf26",
+            "name": "Untitled Capture Choice",
+            "type": "Capture",
+            "command": false,
+            "appendLink": false,
+            "captureTo": "",
+            "captureToActiveFile": true,
+            "createFileIfItDoesntExist": {
+              "enabled": false,
+              "createWithTemplate": false,
+              "template": ""
+            },
+            "format": {
+              "enabled": true,
+              "format": ""
+            },
+            "insertAfter": {
+              "enabled": false,
+              "after": "",
+              "insertAtEnd": false,
+              "considerSubsections": false,
+              "createIfNotFound": false,
+              "createIfNotFoundLocation": "top"
+            },
+            "prepend": false,
+            "task": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": false,
+            "openFileInMode": "default"
+          }
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Add Link To PDF Page",
+      "id": "65fbe4ed-c243-4b71-897f-411e5592fded",
+      "commands": [
+        {
+          "name": "ZoteroToObsidian",
+          "type": "UserScript",
+          "id": "4cbdce28-807e-41ec-8d40-1c670465e01f",
+          "path": "Scripts/ZoteroToObsidian.js",
+          "settings": {}
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Create Object And Link Under Cursor",
+      "id": "63e21c59-28ad-44b7-98de-ecfb11d10318",
+      "commands": [],
+      "runOnStartup": false
+    },
+    {
+      "name": "Insert Image",
+      "id": "62eb7c00-fdcd-4afa-a41d-eb1a782c8ab3",
+      "commands": [
+        {
+          "name": "Excalidraw: Create new drawing - IN AN ADJACENT WINDOW - and embed into active document",
+          "type": "Obsidian",
+          "id": "3b557f74-24c6-41cf-9ed8-b9b892a6d5cd",
+          "commandId": "obsidian-excalidraw-plugin:excalidraw-autocreate-and-embed"
+        },
+        {
+          "name": "Templater: Insert Templates/New Image.md",
+          "type": "Obsidian",
+          "id": "cfc59a04-91b7-4a4e-9a41-48b5f1dbff7c",
+          "commandId": "templater-obsidian:Templates/New Image.md"
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Insert Image",
+      "id": "1c9bf789-677f-48a4-ba28-a43ecb5a7099",
+      "commands": [
+        {
+          "name": "Pane Relief: Open new window",
+          "type": "Obsidian",
+          "id": "e06ab077-b9c5-48f1-8e9e-8ac5c3b477c0",
+          "commandId": "pane-relief:open-new-window"
+        },
+        {
+          "name": "Wait",
+          "type": "Wait",
+          "id": "8b137a4a-4221-4c6e-bc9d-f6c74159226d",
+          "time": 100
+        },
+        {
+          "name": "Wait",
+          "type": "Wait",
+          "id": "d1cef432-bba6-4195-a7e6-5a5c22af08a4",
+          "time": 100
+        },
+        {
+          "name": "Templater: Open Insert Template modal",
+          "type": "Obsidian",
+          "id": "c0bfd6e4-4213-4411-9cea-a36ec4d97083",
+          "commandId": "templater-obsidian:insert-templater"
+        }
+      ],
+      "runOnStartup": false
+    }
+  ],
+  "inputPrompt": "single-line",
+  "devMode": false,
+  "templateFolderPath": "Templates",
+  "announceUpdates": true,
+  "version": "1.4.0",
+  "disableOnlineFeatures": true,
+  "ai": {
+    "OpenAIApiKey": "",
+    "defaultModel": "Ask me",
+    "defaultSystemPrompt": "As an AI assistant within Obsidian, your primary goal is to help users manage their ideas and knowledge more effectively. Format your responses using Markdown syntax. Please use the [[Obsidian]] link format. You can write aliases for the links by writing [[Obsidian|the alias after the pipe symbol]]. To use mathematical notation, use LaTeX syntax. LaTeX syntax for larger equations should be on separate lines, surrounded with double dollar signs ($$). You can also inline math expressions by wrapping it in $ symbols. For example, use $$w_{ij}^{\text{new}}:=w_{ij}^{\text{current}}+etacdotdelta_jcdot x_{ij}$$ on a separate line, but you can write \"($eta$ = learning rate, $delta_j$ = error term, $x_{ij}$ = input)\" inline.",
+    "promptTemplatesFolderPath": "",
+    "showAssistant": true
+  },
+  "migrations": {
+    "migrateToMacroIDFromEmbeddedMacro": true,
+    "useQuickAddTemplateFolder": true,
+    "incrementFileNameSettingMoveToDefaultBehavior": true,
+    "mutualExclusionInsertAfterAndWriteToBottomOfFile": true,
+    "setVersionAfterUpdateModalRelease": true
+  }
+}

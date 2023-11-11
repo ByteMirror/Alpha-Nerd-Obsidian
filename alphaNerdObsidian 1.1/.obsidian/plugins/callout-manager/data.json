@@ -1,0 +1,116 @@
+{
+  "callouts": {
+    "custom": [
+      "Today",
+      "Meetings"
+    ],
+    "settings": {
+      "hint": [
+        {
+          "changes": {
+            "icon": "lucide-sun-moon"
+          }
+        },
+        {
+          "condition": {
+            "colorScheme": "light"
+          },
+          "changes": {
+            "color": "236, 208, 65"
+          }
+        },
+        {
+          "condition": {
+            "colorScheme": "dark"
+          },
+          "changes": {
+            "color": "255, 227, 87"
+          }
+        }
+      ],
+      "Today": [
+        {
+          "changes": {
+            "icon": "lucide-sun-moon"
+          }
+        },
+        {
+          "condition": {
+            "colorScheme": "light"
+          },
+          "changes": {
+            "color": "255, 195, 66"
+          }
+        },
+        {
+          "condition": {
+            "colorScheme": "dark"
+          },
+          "changes": {
+            "color": "255, 195, 66"
+          }
+        }
+      ],
+      "Meetings": [
+        {
+          "changes": {
+            "icon": "calendar-day",
+            "color": "190, 138, 255"
+          }
+        }
+      ],
+      "faq": [
+        {
+          "changes": {
+            "icon": "calendar-day",
+            "color": "225, 143, 255"
+          }
+        }
+      ],
+      "done": [
+        {
+          "changes": {
+            "icon": "lucide-camera",
+            "color": "211, 164, 111"
+          }
+        }
+      ],
+      "abstract": [
+        {
+          "changes": {
+            "icon": "lucide-swords"
+          }
+        }
+      ],
+      "warning": [
+        {
+          "changes": {
+            "icon": "lucide-brain",
+            "color": "255, 188, 112"
+          }
+        }
+      ],
+      "summary": [
+        {
+          "changes": {
+            "color": "113, 193, 123"
+          }
+        }
+      ],
+      "todo": [
+        {
+          "changes": {
+            "icon": "lucide-brain-circuit",
+            "color": "108, 188, 143"
+          }
+        }
+      ]
+    }
+  },
+  "calloutDetection": {
+    "obsidianFallbackForced": false,
+    "obsidian": true,
+    "theme": true,
+    "snippet": true
+  }
+}

@@ -1,0 +1,187 @@
+{
+  "settings": {
+    "migrated": 3,
+    "iconPacksPath": ".obsidian/icons",
+    "fontSize": 16,
+    "emojiStyle": "none",
+    "iconColor": null,
+    "recentlyUsedIcons": [
+      "FasStar",
+      "BoBxsBookContent",
+      "FasMapLocationDot",
+      "FasPeopleGroup",
+      "BoBxsTerminal"
+    ],
+    "recentlyUsedIconsSize": 5,
+    "rules": [],
+    "extraMargin": {
+      "top": 0,
+      "right": 4,
+      "bottom": 0,
+      "left": 0
+    },
+    "iconInTabsEnabled": true,
+    "iconsBackgroundCheckEnabled": true,
+    "iconInTitleEnabled": true
+  },
+  "Habits": {
+    "iconName": "RaZigzagLeaf",
+    "inheritanceIcon": "RaZigzagLeaf"
+  },
+  "Templates": {
+    "iconName": "LiLayoutTemplate",
+    "inheritanceIcon": "LiLayoutTemplate"
+  },
+  "Zettelkasten": {
+    "iconName": "RiCalendarTodoFill",
+    "inheritanceIcon": "RiCalendarTodoFill"
+  },
+  "Finance": {
+    "iconName": "FasMoneyBillWheat",
+    "inheritanceIcon": "FasMoneyBillWheat"
+  },
+  "Excalidraw": {
+    "iconName": "RiMindMap",
+    "inheritanceIcon": "RiMindMap"
+  },
+  "Readwise": {
+    "iconName": "LiLibrary",
+    "inheritanceIcon": "LiLibrary"
+  },
+  "Obsidian Guidelines": {
+    "iconName": "LiInfo",
+    "inheritanceIcon": "LiInfo"
+  },
+  "Readwise/Articles": {
+    "iconName": "LiLibrary",
+    "inheritanceIcon": "LiLibrary"
+  },
+  "Readwise/Books": {
+    "iconName": "LiLibrary",
+    "inheritanceIcon": "LiLibrary"
+  },
+  "Banners": {
+    "iconName": "SiRtlzwei",
+    "inheritanceIcon": "SiRtlzwei"
+  },
+  "Attachments": {
+    "iconName": "RiAttachment2",
+    "inheritanceIcon": "RiAttachment2"
+  },
+  "Videos": {
+    "iconName": "BoBxsVideoRecording",
+    "inheritanceIcon": "BoBxsVideoRecording"
+  },
+  "Meetings": {
+    "iconName": "FasPeopleGroup",
+    "inheritanceIcon": "FasPeopleGroup"
+  },
+  "TheGarden": {
+    "iconName": "SiForestry",
+    "inheritanceIcon": "SiForestry"
+  },
+  "Assignments": {
+    "iconName": "RiFilePaper2Fill",
+    "inheritanceIcon": "RiFilePaper2Fill"
+  },
+  "TheGarden/Thoughts.canvas": "FasMugHot",
+  "Habits/Tracker Library.md": "RaZigzagLeaf",
+  "Exams": {
+    "iconName": "FasBolt",
+    "inheritanceIcon": "FasBolt"
+  },
+  "Lectures": {
+    "iconName": "SiElectronbuilder",
+    "inheritanceIcon": "SiElectronbuilder"
+  },
+  "Work": "FasCode",
+  "Work/Tickets": {
+    "iconName": "LiKanbanSquare",
+    "inheritanceIcon": "LiKanbanSquare"
+  },
+  "Humans": {
+    "iconName": "FasPerson",
+    "inheritanceIcon": "FasPerson"
+  },
+  "Events": {
+    "iconName": null,
+    "inheritanceIcon": "SiPowervirtualagents"
+  },
+  "Knowledge": {
+    "iconName": "FasBrain",
+    "inheritanceIcon": "FasBrain"
+  },
+  "Calendar Views": {
+    "iconName": "LiCalendarRange",
+    "inheritanceIcon": "LiCalendarRange"
+  },
+  "Calendar Views/Personal": {
+    "iconName": "LiCalendarRange",
+    "inheritanceIcon": "LiCalendarRange"
+  },
+  "Calendar Views/University": {
+    "iconName": "LiCalendarRange",
+    "inheritanceIcon": "LiCalendarRange"
+  },
+  "Calendar Views/Work": {
+    "iconName": "LiCalendarRange",
+    "inheritanceIcon": "LiCalendarRange"
+  },
+  "Calendar Views/Vocational School": {
+    "iconName": "LiCalendarRange",
+    "inheritanceIcon": "LiCalendarRange"
+  },
+  "Recipes": "FasBowlRice",
+  "DnD": "SiDungeonsanddragons",
+  "Work/Sprints": {
+    "iconName": "IbRocket",
+    "inheritanceIcon": "IbRocket"
+  },
+  "PDFs": {
+    "iconName": "FasFilePdf",
+    "inheritanceIcon": "FasFilePdf"
+  },
+  "Pets": {
+    "iconName": "RaCat",
+    "inheritanceIcon": "RaCat"
+  },
+  "Images": {
+    "iconName": "RiGalleryFill",
+    "inheritanceIcon": "RiGalleryFill"
+  },
+  "Movies": {
+    "iconName": "BoBxsCameraMovie",
+    "inheritanceIcon": "BoBxsCameraMovie"
+  },
+  "DnD/monsterfiles": {
+    "iconName": "RaMonsterSkull",
+    "inheritanceIcon": "RaMonsterSkull"
+  },
+  "Research": "SiAtom",
+  "Music": {
+    "iconName": "IbMusic",
+    "inheritanceIcon": "IbMusic"
+  },
+  "Scripts": {
+    "iconName": "BoBxsTerminal",
+    "inheritanceIcon": "BoBxsTerminal"
+  },
+  "MOCs/Home.md": "SiObsidian",
+  "MOCs/Personal.md": "LiHome",
+  "MOCs/University.md": "SiAtom",
+  "MOCs/VocationalSchool.md": "FasSchoolFlag",
+  "MOCs/BBraun.md": "LiComputer",
+  "MOCs/Human Computer Interaction Evolution and Future of Apple's User Interface Design MOC.md": "BoBxsBookContent",
+  "MOCs": {
+    "iconName": "BoBxsBookContent",
+    "inheritanceIcon": "BoBxsBookContent"
+  },
+  "Music/Sheet Music": {
+    "iconName": "IbMusic",
+    "inheritanceIcon": "IbMusic"
+  },
+  "Humans/Creators": {
+    "iconName": "FasStar",
+    "inheritanceIcon": "FasStar"
+  }
+}

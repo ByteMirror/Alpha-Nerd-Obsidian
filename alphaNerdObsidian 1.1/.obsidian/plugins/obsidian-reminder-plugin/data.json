@@ -1,0 +1,188 @@
+{
+  "scanned": true,
+  "reminders": {
+    "Zettelkasten/2023-10-23.md": [
+      {
+        "title": "change logic for event dataview so that old events are omitted",
+        "time": "2023-10-24",
+        "rowNumber": 20
+      },
+      {
+        "title": "create event view for daily note showing all current events",
+        "time": "2023-10-24",
+        "rowNumber": 21
+      }
+    ],
+    "Work/Tickets/IMSCLIENT-924-Missing-filter-button-when-matching-articles.md": [
+      {
+        "title": "Add disabled prop to Checkbox component",
+        "time": "2023-10-27",
+        "rowNumber": 18
+      },
+      {
+        "title": "Find CSS class to render greyed out option",
+        "time": "2023-10-27",
+        "rowNumber": 19
+      }
+    ],
+    "Zettelkasten/2023-10-20.md": [
+      {
+        "title": "update task views with logic from [[2023-10-20]] #context/Personal",
+        "time": "2023-10-20",
+        "rowNumber": 21
+      },
+      {
+        "title": "**revise events logic like in** [[Personal]]",
+        "time": "2023-10-20",
+        "rowNumber": 22
+      },
+      {
+        "title": "fix upcoming events in every dashboard #Context/University",
+        "time": "2023-10-21",
+        "rowNumber": 26
+      }
+    ],
+    "Zettelkasten/2023-10-27.md": [
+      {
+        "title": "krei lernan ellasilon en formo de anki kartoj por [[Kammann Lernlandkarte UML.excalidraw]] #Context/VocationalSchool ⏫",
+        "time": "2023-10-28",
+        "rowNumber": 17
+      }
+    ],
+    "Zettelkasten/2023-10-28.md": [
+      {
+        "title": "krei ŝablon-logikon, kiu aŭtomate plenigas kampojn en kalendara evento-ŝablono #Context/Obsidian",
+        "time": "2023-10-28",
+        "rowNumber": 18
+      },
+      {
+        "title": "implement calendar events through tasks plugin to make them repeatable",
+        "time": "2023-10-28",
+        "rowNumber": 21
+      },
+      {
+        "title": "tag pictures with personal, work etc.",
+        "time": "2023-10-28",
+        "rowNumber": 26
+      }
+    ],
+    "Zettelkasten/2023-10-15.md": [
+      {
+        "title": "Test ToDo for Query",
+        "time": "2023-10-17",
+        "rowNumber": 22
+      },
+      {
+        "title": "Write Email to Marlene",
+        "time": "2023-10-16",
+        "rowNumber": 23
+      },
+      {
+        "title": "test",
+        "time": "2023-10-15",
+        "rowNumber": 24
+      }
+    ],
+    "Zettelkasten/2023-10-21.md": [
+      {
+        "title": "sport",
+        "time": "2023-10-21",
+        "rowNumber": 16
+      },
+      {
+        "title": "meditation",
+        "time": "2023-10-21",
+        "rowNumber": 17
+      },
+      {
+        "title": "bathing",
+        "time": "2023-10-21",
+        "rowNumber": 18
+      },
+      {
+        "title": "[[Shopping List]]",
+        "time": "2023-10-21",
+        "rowNumber": 21
+      }
+    ],
+    "Zettelkasten/2023-10-18.md": [
+      {
+        "title": "[[IT und Medienrecht]] #Event/University ⏫",
+        "time": "2023-11-25",
+        "rowNumber": 22
+      },
+      {
+        "title": "[[IT Infrastruktur]]",
+        "time": "2023-12-16",
+        "rowNumber": 25
+      },
+      {
+        "title": "cancel discord ⏫",
+        "time": "2023-10-25",
+        "rowNumber": 26
+      }
+    ],
+    "Zettelkasten/2023-11-02.md": [
+      {
+        "title": "begin with presentation #Context/ITInfrastruktur 🔺",
+        "time": "2023-11-18",
+        "rowNumber": 14
+      }
+    ],
+    "Zettelkasten/2023-11-03.md": [
+      {
+        "title": "Prepare Commerzbank letter",
+        "time": "2023-11-03",
+        "rowNumber": 12
+      }
+    ],
+    "Lectures/Business English 2023-11-06.md": [
+      {
+        "title": "[[Business English Writing Book 5 Test 2]]",
+        "time": "2023-11-12",
+        "rowNumber": 21
+      }
+    ],
+    "Zettelkasten/2023-11-07.md": [
+      {
+        "title": "Claudius anschreiben und fragen wegen Latex #University",
+        "time": "2023-11-11",
+        "rowNumber": 12
+      },
+      {
+        "title": "Fragen ob korrektur von Ausdruck und Grammtik mit ChatGPT akzeptabel ist #University",
+        "time": "2023-11-07",
+        "rowNumber": 14
+      },
+      {
+        "title": "look up better comments for vs code #personal",
+        "time": "2023-11-11",
+        "rowNumber": 15
+      },
+      {
+        "title": "check out statistisches bundesamt as a source for empirical evidence #University",
+        "time": "2023-11-08",
+        "rowNumber": 16
+      }
+    ]
+  },
+  "debug": false,
+  "settings": {
+    "reminderTime": "09:00",
+    "laters": "In 30 minutes\nIn 1 hour\nIn 3 hours\nTomorrow\nNext week",
+    "useSystemNotification": true,
+    "autoCompleteTrigger": "(@",
+    "primaryReminderFormat": "TasksPluginReminderFormat",
+    "enableReminderPluginReminderFormat": true,
+    "dateFormat": "YYYY-MM-DD",
+    "dateTimeFormat": "YYYY-MM-DD HH:mm",
+    "strictDateFormat": false,
+    "linkDatesToDailyNotes": true,
+    "enableTasksPluginReminderFormat": true,
+    "useCustomEmojiForTasksPlugin": false,
+    "removeTagsForTasksPlugin": false,
+    "enableKanbanPluginReminderFormat": false,
+    "editDetectionSec": 10,
+    "reminderCheckIntervalSec": 5
+  }
+}

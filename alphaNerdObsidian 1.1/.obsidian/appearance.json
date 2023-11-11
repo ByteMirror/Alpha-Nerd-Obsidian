@@ -1,0 +1,26 @@
+{
+  "accentColor": "",
+  "theme": "moonstone",
+  "interfaceFontFamily": "SF Pro",
+  "textFontFamily": "SF Pro",
+  "translucency": false,
+  "cssTheme": "Minimal",
+  "enabledCssSnippets": [
+    "Cursor",
+    "MCL Gallery Cards",
+    "MCL Multi Column",
+    "MCL Wide Views",
+    "dashboard",
+    "dashboard-ReadLineLength",
+    "supercharged-links-gen",
+    "style-embeds",
+    "Checkboxes",
+    "Cleaner Embeds",
+    "no-front",
+    "Extended Colorschemes"
+  ],
+  "monospaceFontFamily": "MonoLisa Fabian",
+  "nativeMenus": true,
+  "baseFontSize": 14,
+  "showViewHeader": true
+}
