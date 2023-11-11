@@ -5,9 +5,9 @@
 Object-Oriented Note-Taking is a methodology that borrows concepts from object-oriented programming and applies them to the organization and management of notes. In this approach, each note (or "object") represents a distinct entity or concept, complete with attributes and relations to other notes.
 
 ### Key Principles
-Objects as Fundamental Units: Each note is treated as an "object" with specific characteristics and a defined purpose. For instance, a note could represent a person, an event, a place, or an idea.
-Attributes: Objects have attributes (properties or fields), such as a person's birthday, an event's date, or a project's deadline.
-Relationships: Objects can be linked to show relationships, like a person associated with an event or a task linked to a project.
+- **Objects as Fundamental Units:** Each note is treated as an "object" with specific characteristics and a defined purpose. For instance, a note could represent a person, an event, a place, or an idea.
+- **Attributes:** Objects have attributes (properties or fields), such as a person's birthday, an event's date, or a project's deadline.
+- **Relationships:** Objects can be linked to show relationships, like a person associated with an event or a task linked to a project.
 
 ## Keyboard Shortcuts
 This config has lots of keyboard shortcuts defined already. 
